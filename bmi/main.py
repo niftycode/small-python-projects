@@ -4,22 +4,31 @@
 
 """
 Small Python Projects for Beginners
+BMI Calculator
 Version: 1.0
 Python 3.10+
 Date created: July 16th, 2022
-Date modified: -
+Date modified: July 20th, 2022
 """
 
 
-import logging
+def calculate_bmi(weight: float, height: float):
+    bmi: float = weight / (height * height)
 
-logging.basicConfig(level=logging.DEBUG)
-logger = logging.getLogger()
+    if bmi < 18.5:
+        print("Underweight")
+    elif bmi >= 25:
+        print("Overweight")
+    else:
+        print("Normal weight")
 
 
 def main():
-    pass
+    weight: float = float(input("Please enter your weight (kg): "))
+    height: float = float(input("Please enter your height (m): "))
+
+    calculate_bmi(weight, height)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
