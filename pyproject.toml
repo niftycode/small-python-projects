@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "small-python-projects"
 version = "0.1.0"
-description = "ten small Python projects for beginners"
+description = "small Python projects for beginners"
 authors = ["Bodo Schönfeld <bodo.schoenfeld@niftycode.de>"]
 license = "MIT"
 

@@ -21,7 +21,7 @@ def convert(fahrenheit: str):
 
 
 def main():
-    fahrenheit: str = input("Enter Fahrenheit temperature:")
+    fahrenheit: str = input("Enter Fahrenheit temperature: ")
 
     convert(fahrenheit)
 
