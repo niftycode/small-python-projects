@@ -1,10 +1,22 @@
+#############################
+#### Configuration Files ####
+#############################
 .DS_Store
-/.vscode
-/.idea
+.vscode
+.idea
+.fleet
+
+#############################
+### Build Files & Folders ###
+#############################
+/DataVisualization/__pycache__
 dist/
 build/
+
+#############################
+### venv & Code Coverage ####
+#############################
 .venv/
 .coverage
-
-*.pyc
 /htmlcov
+
