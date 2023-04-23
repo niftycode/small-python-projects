@@ -3,6 +3,7 @@
 
 """
 Small Python Projects for Beginners
+Convert a hex digit to decimal
 
 Version: 1.0
 Python 3.11
