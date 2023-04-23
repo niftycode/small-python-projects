@@ -3,36 +3,33 @@
 
 """
 Small Python Projects for Beginners
-Convert a hex digit to decimal
 
-Version: 1.0
+Addition Quiz: The user can enter a new answer until it is correct.
+This program has no exception handling. So, if the user enter a character
+the program will crash.
+
+Version: 1.1
 Python 3.11
 Date created: April 22nd, 2023
 Date modified: -
 """
 
-import sys
-
-
-def hex_to_dec(hex_digit: str):
-    if hex_digit <= "F" and hex_digit >= "A":
-        # The ord() function returns the ASCII code for
-        # the given character.
-        value = ord(hex_digit) - ord("A") + 10
-        print(f"The decimal value for {hex_digit} is {value}.")
-    elif hex_digit.isdigit():
-        print(f"The decimal value for {hex_digit} is {hex_digit}.")
-    else:
-        print("The input value is invalid!")
+import random
 
 
 def main():
-    hex_digit = input("Enter a hex digit: ").upper()
+    number1 = random.randint(0, 90)
+    number2 = random.randint(0, 90)
 
-    if len(hex_digit) != 1:
-        sys.exit("You entered more than digit!")
+    result = number1 + number2
 
-    hex_to_dec(hex_digit)
+    answer = int(input(f"What is {number1} + {number2}? "))
+
+    while result != answer:
+        print("Wrong!")
+        answer = int(input(f"What is {number1} + {number2}? "))
+
+    print(f"Yes, {number1} + {number2} is {result}.")
 
 
 if __name__ == "__main__":
