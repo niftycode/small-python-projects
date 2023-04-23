@@ -10,4 +10,5 @@ This collection of small Python programs wants to help beginners in this way. De
 
 * bmi
 * fahrenheit-converter
-* 
+* hex-to-digit
+* addition-quiz
