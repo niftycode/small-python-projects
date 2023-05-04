@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+[0.1.1]-2023-05-04
+-------------------
+
+- Add quadratic-equation
+
 [0.1.0]-2023-05-03
 -------------------
 
@@ -10,25 +15,3 @@ CHANGELOG
     - hex-to-digit
     - addition-quiz
     - palindrome
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

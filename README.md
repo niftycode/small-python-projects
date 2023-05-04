@@ -13,3 +13,4 @@ This collection of small Python programs wants to help beginners in this way. De
 * hex-to-digit
 * addition-quiz
 * palindrome
+* quadratic-equation
