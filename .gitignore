@@ -9,9 +9,9 @@
 #############################
 ### Build Files & Folders ###
 #############################
-/DataVisualization/__pycache__
 dist/
 build/
+__pycache__
 
 #############################
 ### venv & Code Coverage ####

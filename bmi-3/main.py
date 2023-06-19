@@ -3,12 +3,14 @@
 
 """
 Small Python Projects for Beginners
-BMI Calculator with Exception Handling
+BMI Calculator with exception handling in a seperate module
 Version: 1.0
 Python 3.11+
 Date created: June 19th, 2023
 Date modified: -
 """
+
+import get_values
 
 
 def calculate_bmi(weight: float, height: float):
@@ -23,26 +25,7 @@ def calculate_bmi(weight: float, height: float):
 
 
 def main():
-    # old code
-    # weight: int = float(input("Please enter your weight (kg): "))
-    # height: int = float(input("Please enter your height (m): "))
-
-    # new code (with exception handling)
-    weight = None
-    while weight is None:
-        try:
-            weight = float(input("Please enter your weight (kg): "))
-        except ValueError as err:
-            print("Invalid input value!")
-            print(err)
-
-    height = None
-    while height is None:
-        try:
-            height = float(input("Please enter your height (m): "))
-        except ValueError as err:
-            print("Invalid input value!")
-            print(err)
+    weight, height = get_values.get_values()
 
     calculate_bmi(weight, height)
 
