@@ -8,7 +8,8 @@ This collection of small Python programs wants to help beginners in this way. De
 
 ## Table of Contents
 
-* bmi
+* bmi-1
+* bmi-2 (same as „bmi-1, but with exception handling)
 * fahrenheit-converter
 * hex-to-digit
 * addition-quiz
