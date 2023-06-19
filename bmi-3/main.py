@@ -3,7 +3,7 @@
 
 """
 Small Python Projects for Beginners
-BMI Calculator with exception handling in a seperate module
+BMI Calculator with exception handling in a separate module
 Version: 1.0
 Python 3.11+
 Date created: June 19th, 2023
