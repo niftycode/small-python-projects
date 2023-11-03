@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+[0.1.2]-2023-11-03
+-------------------
+
+- Add text handling examples:
+    - Read text from a file
+    - Write text to a file
+
 [0.1.1]-2023-05-04
 -------------------
 

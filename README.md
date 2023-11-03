@@ -16,5 +16,6 @@ This collection of small Python programs wants to help beginners in this way. De
 * addition-quiz
 * palindrome
 * quadratic-equation
+* text-handling
 * Turtle
-    * square
+  * square
