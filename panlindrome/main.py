@@ -12,11 +12,18 @@ This example shows how to use `break` in a while loop.
 Version: 1.0
 Python 3.11
 Date created: May 3rd, 2023
-Date modified: -
+Date modified: November 3rd, 2023
 """
 
 
 def main(input: str):
+    """A palindrome is a word, sentence, verse, or even number
+    that reads the same backward or forward. This can be checked
+    using the code below.
+
+    Args:
+        input (str): A word to be checked.
+    """
     low = 0
     high = len(input) - 1
 
