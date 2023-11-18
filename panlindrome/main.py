@@ -12,7 +12,7 @@ This example shows how to use `break` in a while loop.
 Version: 1.0
 Python 3.11
 Date created: May 3rd, 2023
-Date modified: November 3rd, 2023
+Date modified: November 17th, 2023
 """
 
 
@@ -46,3 +46,18 @@ def main(input: str):
 if __name__ == "__main__":
     user_input = input("Enter a string: ")
     main(user_input.lower())
+
+"""
+2nd example:
+We can use a list to test whether it is a palindrome.
+
+a_string = input("Enter a string: ")
+a_string = str_1.casefold()
+
+reversed_string = reversed(a_string)
+
+if list(a_string) == list(reversed_string):
+    print("The string is a palindrome.")
+else:
+    print("The string is not a palindrome.")
+"""
