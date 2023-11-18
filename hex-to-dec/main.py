@@ -30,7 +30,7 @@ def main():
     hex_digit = input("Enter a hex digit: ").upper()
 
     if len(hex_digit) != 1:
-        sys.exit("You entered more than digit!")
+        sys.exit("You entered more than one digit!")
 
     hex_to_dec(hex_digit)
 
