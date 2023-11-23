@@ -11,9 +11,10 @@ If you find any bugs, open up an issue.
 ## Development Dependencies
 
 - Python 3 (versions 3.10+ are currently supported)
-- `pip3 install flake8 pytest`
-      - `flake8` to check for errors and to enforce code style.
-      - `pytest` to run the tests (optional, you can contribute without writing tests).
+- `pip3 install flake8 black pytest`
+        - `flake8` to check for errors and to enforce code style.
+        - `black` to format the code.
+        - `pytest` to run the tests (optional, you can contribute without writing tests).
 - Install all requirements with the following command:
 
         pip3 install -r requirements.txt
