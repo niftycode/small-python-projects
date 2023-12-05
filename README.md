@@ -9,7 +9,7 @@ This collection of small Python programs wants to help beginners in this way. De
 ## Table of Contents
 
 * bmi-1
-* bmi-2 (same as „bmi-1", but with exception handling)
+* bmi-2 (same as "bmi-1", but with exception handling)
 * bmi-3 (same as "bmi-2", but with exception handling in a separate module)
 * fahrenheit-converter
 * hex-to-dec
@@ -17,5 +17,7 @@ This collection of small Python programs wants to help beginners in this way. De
 * palindrome
 * quadratic-equation
 * text-handling
+* box-volume
+* random-password
 * Turtle
   * square
