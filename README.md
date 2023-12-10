@@ -19,5 +19,6 @@ This collection of small Python programs wants to help beginners in this way. De
 * text-handling
 * box-volume
 * random-password
+* two-points-distance
 * Turtle
   * square
