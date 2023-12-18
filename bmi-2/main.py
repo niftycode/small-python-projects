@@ -7,11 +7,19 @@ BMI Calculator with Exception Handling
 Version: 1.0
 Python 3.11+
 Date created: June 19th, 2023
-Date modified: -
+Date modified: December 18th, 2023
 """
 
 
 def calculate_bmi(weight: float, height: float):
+    """
+    Calculates BMI (Body Mass Index) based on weight and height.
+
+    Args:
+        weight (float): The weight in kilograms.
+        height (float): The height in meters.
+
+    """
     bmi: float = weight / (height * height)
 
     if bmi < 18.5:
@@ -23,6 +31,12 @@ def calculate_bmi(weight: float, height: float):
 
 
 def main():
+    """
+    Entry point of this program.
+    Get weight and height entered by the user,
+    check whether it is a valid input and invoke calculate_bmi().
+    """
+
     # old code
     # weight: int = float(input("Please enter your weight (kg): "))
     # height: int = float(input("Please enter your height (m): "))
