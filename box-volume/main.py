@@ -23,6 +23,28 @@ import sys
 
 
 class BoxCalculator:
+    """
+    Class BoxCalculator
+
+    A class that represents a box calculator with dimensions of length, width, and height.
+
+    Attributes:
+        length (int): The length of the box.
+        width (int): The width of the box.
+        height (int): The height of the box.
+
+    Methods:
+        __init__(self, length: int, width: int, height: int) -> None:
+            Initializes a new instance of the BoxCalculator class.
+
+        calculate_volume(self) -> int:
+            Calculates the volume of the box using the formula length * width * height.
+
+        __repr__(self)
+            Returns a string representation of the BoxCalculator object.
+
+    """
+
     def __init__(self, length: int, width: int, height: int) -> None:
         self.length = length
         self.width = width
@@ -49,6 +71,7 @@ class BoxCalculator:
 
 
 def main():
+    """ """
     length = input("Enter the length: ")
     width = input("Enter the width: ")
     height = input("Enter the height: ")
