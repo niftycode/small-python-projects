@@ -20,8 +20,10 @@ def test_calculate_bmi_underweight(under_weight, under_height, capsys):
 
 
 def test_calculate_bmi_overweight(weight, height):
+    # TODO - 21.01.2024: Add more tests
     ...
 
 
 def test_calculate_bmi_normal_weight(weight, height):
+    # TODO - 21.01.2024: Add more tests
     ...
