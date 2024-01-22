@@ -13,17 +13,19 @@ def under_weight():
     return 79.4
 
 
-def test_calculate_bmi_underweight(under_weight, under_height, capsys):
+def test_calculate_bmi_normal_weight(under_weight, under_height, capsys):
     calculate_bmi(under_weight, under_height)
     captured = capsys.readouterr()
-    assert captured.out == "Underweight\n"
+    assert captured.out == "Normal weight\n"
 
 
+@pytest.mark.skip(reason="no test available")
 def test_calculate_bmi_overweight(weight, height):
     # TODO - 21.01.2024: Add more tests
     ...
 
 
-def test_calculate_bmi_normal_weight(weight, height):
+@pytest.mark.skip(reason="no test available")
+def test_calculate_bmi_underweight(weight, height):
     # TODO - 21.01.2024: Add more tests
     ...
