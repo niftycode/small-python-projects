@@ -18,8 +18,7 @@ Date modified: November 17th, 2023
 
 def main(input: str):
     """A palindrome is a word, sentence, verse, or even number
-    that reads the same backward or forward. This can be checked
-    using the code below.
+    that reads the same backward or forward.
 
     Args:
         input (str): A word to be checked.

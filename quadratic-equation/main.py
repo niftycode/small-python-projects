@@ -13,6 +13,7 @@ import math
 
 def quadratic_formula(a, b, c):
     """The quadratic formula helps to solve any quadratic equation.
+    Here the abc formula is used.
 
     Args:
         a (int): a value
@@ -20,7 +21,7 @@ def quadratic_formula(a, b, c):
         c (int): c value
 
     Returns:
-        int: _description_
+        int: x1, x2
     """
     x1 = (-b - math.sqrt(b * b - 4 * a * c)) / (2 * a)
     x2 = -b / a - x1

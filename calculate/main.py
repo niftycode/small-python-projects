@@ -6,7 +6,7 @@ It also shows how a user input can be realized with input() or a menu.
 Version: 1.0
 Python 3.12+
 Date created: January 8th, 2024
-Date modified: January 22nd 2024
+Date modified: February 3rd, 2024
 """
 
 import sys
@@ -33,6 +33,12 @@ def quit_application():
 
 
 def menu():
+    """Check the user's selection and invoke the
+    appropriate function
+
+    Returns:
+        float: Result of the calculation
+    """
     number1 = float(input("Enter the first number: "))
     number2 = float(input("Enter the second number: "))
 
@@ -51,16 +57,16 @@ def menu():
         choice = input("Your choice: ")
 
         if choice == "1":
-            rval = add(number1, number2)
+            result = add(number1, number2)
             break
         elif choice == "2":
-            rval = subtract(number1, number2)
+            result = subtract(number1, number2)
             break
         elif choice == "3":
-            rval = multiply(number1, number2)
+            result = multiply(number1, number2)
             break
         elif choice == "4":
-            rval = divide(number1, number2)
+            result = divide(number1, number2)
             break
         elif choice == "q":
             quit_application()
@@ -68,11 +74,13 @@ def menu():
             print("Unknown input! Try again.")
             continue
 
-    print(f"Result: {rval}")
+    return result
 
 
 def main():
-    menu()
+    """Entry point"""
+    rval = menu()
+    print(f"Result: {rval}")
 
 
 if __name__ == "__main__":
