@@ -1,36 +1,4 @@
-import pytest
-
 from main import calculate_bmi
-
-
-@pytest.fixture
-def under_height():
-    return 1.82
-
-
-@pytest.fixture
-def under_weight():
-    return 59.0
-
-
-@pytest.fixture
-def normal_height():
-    return 1.82
-
-
-@pytest.fixture
-def normal_weight():
-    return 79.6
-
-
-@pytest.fixture
-def over_height():
-    return 1.82
-
-
-@pytest.fixture
-def over_weight():
-    return 101.0
 
 
 def test_calculate_bmi_under_weight(under_weight, under_height, capsys):
