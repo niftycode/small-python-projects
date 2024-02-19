@@ -33,7 +33,8 @@ def main():
     try:
         number = int(input("Enter a number: "))
         check_number(number)
-    except ValueError:
+    except ValueError as e:
+        print(e)
         print("Invalid input! Please enter a valid number.")
 
 
