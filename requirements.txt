@@ -1,3 +1,4 @@
+colorama
 flake8
 black
 mypy
