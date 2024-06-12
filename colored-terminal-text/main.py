@@ -2,10 +2,10 @@
 
 """
 Colored terminal text
-using ANSI escape sequence and Colorama
+using ANSI escape sequence and colorama
 Version: 1.0
 Python 3.12+
-Date created: Jun2 3rd, 2024
+Date created: June 3rd, 2024
 Date modified: -
 """
 
