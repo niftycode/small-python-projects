@@ -3,6 +3,8 @@ import pytest
 """
 This file is used by pytest. It is the configuration file
 for tests. For example, common fixtures are defined here.
+Unlike other Python files, conftest.py is automatically
+detected and loaded by pytest.
 """
 
 
