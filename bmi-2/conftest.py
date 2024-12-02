@@ -1,5 +1,10 @@
 import pytest
 
+"""
+This file is used by pytest. It is the configuration file
+for tests. For example, common fixtures are defined here.
+"""
+
 
 @pytest.fixture
 def under_height():
