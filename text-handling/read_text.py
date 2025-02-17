@@ -11,13 +11,18 @@ Date created: November 3rd, 2023
 Date modified: -
 """
 
-FILE = "data.txt"
+FILE = "text-handling/data.txt"
 
-'''
+"""
 File Mode: r = read only
 Due to the use of "with", closing the file with "close()" is not necessary.
-'''
-with open(FILE, "r", encoding="utf-8") as text_file:
-    for line in text_file:
-        line = line.rstrip()
-        print(line)
+"""
+try:
+    with open(FILE, "r", encoding="utf-8") as text_file:
+        for line in text_file:
+            line = line.rstrip()
+            print(line)
+except FileNotFoundError:
+    print(f"Error: The file '{FILE}' was not found.")
+except IOError:
+    print(f"Error: An IOError occurred while reading the file '{FILE}'.")
