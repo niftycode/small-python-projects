@@ -1,4 +1,14 @@
-#!/usr/bin/env python3 
+#!/usr/bin/env python3
+
+"""
+Draw a triangle
+Version: 1.0
+Python 3.12+
+Author: PedroManuelAtienzaHuerta
+Date created: January 27th, 2025
+Date modified: -
+"""
+
 import turtle
 
 # Initial setup
@@ -7,6 +17,7 @@ screen.bgcolor("white")
 mandala = turtle.Turtle()
 mandala.speed(0)
 
+
 # Function to draw a circle
 def draw_circle(color, radius, x, y):
     mandala.penup()
@@ -14,6 +25,7 @@ def draw_circle(color, radius, x, y):
     mandala.goto(x, y)
     mandala.pendown()
     mandala.circle(radius)
+
 
 # Draw mandala pattern
 colors = ["red", "blue", "green", "yellow", "white", "orange"]
