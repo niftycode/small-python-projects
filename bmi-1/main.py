@@ -21,11 +21,8 @@ def calculate_bmi(weight: float, height: float):
 
     Returns:
         None
-
-    Raises:
-        None
-
     """
+
     bmi: float = weight / (height * height)
 
     if bmi < 18.5:
@@ -36,7 +33,7 @@ def calculate_bmi(weight: float, height: float):
         print("Normal weight")
 
 
-def main():
+def main() -> None:
     """
     Entry point of this program.
     Get weight and height entered by the user and invoke calculate_bmi().

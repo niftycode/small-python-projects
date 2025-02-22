@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+[0.1.6]-2025-02-22
+-------------------
+
+Add 2nd addition-quiz example: addition-quiz-2.py
+- with exception handling
+- test with pytest
+
 [0.1.5]-2025-02-13
 -------------------
 
