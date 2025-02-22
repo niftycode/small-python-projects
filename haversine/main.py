@@ -5,6 +5,7 @@ on the Earth
 
 Version: 1.0
 Python 3.12
+Author: AnaJuliaCodes
 Date created: June 23th, 2024
 Date modified: -
 """
