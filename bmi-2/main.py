@@ -46,17 +46,17 @@ def main():
     while weight is None:
         try:
             weight = float(input("Please enter your weight (kg): "))
-        except ValueError as err:
+        except ValueError as ex:
             print("Invalid input value!")
-            print(err)
+            print(ex)
 
     height = None
     while height is None:
         try:
             height = float(input("Please enter your height (m): "))
-        except ValueError as err:
+        except ValueError as ex:
             print("Invalid input value!")
-            print(err)
+            print(ex)
 
     calculate_bmi(weight, height)
 
