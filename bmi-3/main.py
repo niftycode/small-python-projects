@@ -24,7 +24,7 @@ def calculate_bmi(weight: float, height: float):
         print("Normal weight")
 
 
-def main():
+def main() -> None:
     weight, height = get_values.get_values()
 
     calculate_bmi(weight, height)
