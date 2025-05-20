@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+[0.1.7]-2025-05-20
+-------------------
+
+Add 1st OOP example: bmi-4-oop.py
+- with class and methods
+- without exception handling
+
 [0.1.6]-2025-02-22
 -------------------
 

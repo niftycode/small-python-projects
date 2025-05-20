@@ -14,17 +14,30 @@ This collection of small Python programs wants to help beginners in this way. De
 
 ## Table of Contents
 
+* addition-quiz-1
+* addition-quiz-2
 * bmi-1
 * bmi-2 (same as "bmi-1", but with exception handling)
 * bmi-3 (same as "bmi-2", but with exception handling in a separate module)
+* bmi-4-oop (simple BMI calculator using OOP principles)
+* box-volume
+* calculate
+* colored-terminal-text
 * fahrenheit-converter
+* fizz_buzz
+* haversine (@AnaJuliaCodes)
 * hex-to-dec
-* addition-quiz
+* integer-input
+* main-menu
 * palindrome
 * quadratic-equation
-* text-handling
-* box-volume
 * random-password
-* two-points-distance
+* sysinfo
+* text-handling
 * Turtle
+  * circle-square-pentagon
+  * circle
+  * mandala (@PedroManuelAtienzaHuerta)
   * square
+  * triangle
+* two-points-distance
