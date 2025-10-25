@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+[0.1.8]-2025-10-25
+-------------------
+
+Add encryption example
+(pycryptodome, AES256 CFB mode)
+
 [0.1.7]-2025-05-20
 -------------------
 
