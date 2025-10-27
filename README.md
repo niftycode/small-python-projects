@@ -6,6 +6,7 @@
 ![GitHub License](https://img.shields.io/github/license/niftycode/small-python-projects)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/niftycode/small-python-projects)
+![GitHub last commit](https://img.shields.io/github/last-commit/niftycode/small-python-projects)
 
 ## Introduction
 
