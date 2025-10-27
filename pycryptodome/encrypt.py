@@ -13,7 +13,7 @@ from Crypto.Random import get_random_bytes
 
 from pathlib import Path
 
-file = Path.home() / "Desktop" / "Textdatei.txt"
+file = Path.home() / "Desktop" / "Text.txt"
 password = "my_secret_password"
 
 with open(file, "rb") as f:

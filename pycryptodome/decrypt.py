@@ -12,7 +12,7 @@ from Crypto.Protocol.KDF import PBKDF2
 
 from pathlib import Path
 
-file = Path.home() / "Desktop" / "Textdatei.txt.enc"
+file = Path.home() / "Desktop" / "Text.txt.enc"
 password = "my_secret_password"
 
 with open(file, "rb") as f:
