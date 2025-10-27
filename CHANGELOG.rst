@@ -4,7 +4,7 @@ CHANGELOG
 [0.1.8]-2025-10-25
 -------------------
 
-Add encryption example
+Add encryption/decryption examples
 (pycryptodome, AES256 CFB mode)
 
 [0.1.7]-2025-05-20

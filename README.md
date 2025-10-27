@@ -2,6 +2,7 @@
 
 ![Static Badge](https://img.shields.io/badge/python-3.12-blue)
 ![Static Badge](https://img.shields.io/badge/python-3.13-blue)
+![Static Badge](https://img.shields.io/badge/python-3.14-blue)
 ![GitHub License](https://img.shields.io/github/license/niftycode/small-python-projects)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/niftycode/small-python-projects)
@@ -41,3 +42,5 @@ This collection of small Python programs wants to help beginners in this way. De
   * square
   * triangle
 * two-points-distance
+* pycryptodome (data encryption / decryption using AES256)
+
