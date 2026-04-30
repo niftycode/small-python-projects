@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+[0.1.9]-2026-04-30
+-------------------
+
+Add first Ollama example:
+Use Ollama's HTTP API to generate a response from a local LLM model and print the response.
+
 [0.1.8]-2025-10-25
 -------------------
 
